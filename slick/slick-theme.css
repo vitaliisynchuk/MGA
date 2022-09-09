@@ -113,6 +113,13 @@
     content: '←';
 }
 
+@media (max-width:928px) {
+  .slick-prev,
+  .slick-next {
+    display: none;
+  }
+}
+
 /* Dots */
 .slick-dotted.slick-slider
 {
